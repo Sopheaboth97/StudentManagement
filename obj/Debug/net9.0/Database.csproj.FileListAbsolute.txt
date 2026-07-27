@@ -1,0 +1,409 @@
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\appsettings.Development.json
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\appsettings.json
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.staticwebassets.endpoints.json
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.exe
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.deps.json
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.runtimeconfig.json
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.pdb
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Azure.Core.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Azure.Identity.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Humanizer.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Mono.TextTemplating.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\MySqlConnector.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.ClientModel.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.CodeDom.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.Convention.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.Hosting.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.Runtime.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.TypedParts.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Drawing.Common.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Memory.Data.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Runtime.Caching.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Security.Permissions.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Windows.Extensions.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.csproj.AssemblyReference.cache
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rpswa.dswa.cache.json
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.AssemblyInfoInputs.cache
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.AssemblyInfo.cs
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.csproj.CoreCompileInputs.cache
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.MvcApplicationPartsAssemblyInfo.cache
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rjimswa.dswa.cache.json
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\scopedcss\bundle\Database.styles.css
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.build.json
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.build.json.cache
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.development.json
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.csproj.Up2Date
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.dll
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\refint\Database.dll
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.pdb
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.genruntimeconfig.cache
+G:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\ref\Database.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\appsettings.Development.json
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\appsettings.json
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.staticwebassets.endpoints.json
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.exe
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.deps.json
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.runtimeconfig.json
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Database.pdb
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Azure.Core.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Azure.Identity.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Humanizer.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\MySqlConnector.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.ClientModel.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.CodeDom.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Year 2\Semester II\C#\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.csproj.AssemblyReference.cache
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.AssemblyInfoInputs.cache
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.AssemblyInfo.cs
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.csproj.CoreCompileInputs.cache
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.MvcApplicationPartsAssemblyInfo.cache
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\scopedcss\bundle\Database.styles.css
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.build.json
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.development.json
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.csproj.Up2Date
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.dll
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\refint\Database.dll
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.pdb
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\Database.genruntimeconfig.cache
+D:\Year 2\Semester II\C#\Database\obj\Debug\net9.0\ref\Database.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.csproj.AssemblyReference.cache
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.AssemblyInfoInputs.cache
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.AssemblyInfo.cs
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.csproj.CoreCompileInputs.cache
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.MvcApplicationPartsAssemblyInfo.cache
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\refint\Database.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.pdb
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\appsettings.Development.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\appsettings.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Database.staticwebassets.endpoints.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Database.exe
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Database.deps.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Database.runtimeconfig.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Database.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Database.pdb
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Azure.Core.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Azure.Identity.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Humanizer.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\MySqlConnector.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.ClientModel.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.CodeDom.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Memory.Data.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\scopedcss\bundle\Database.styles.css
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\staticwebassets.build.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\staticwebassets.development.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\swae.build.ex.cache
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.csproj.Up2Date
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\Database.genruntimeconfig.cache
+D:\SECTEC work\year 2 sem 2\C#\Mysql_3\obj\Debug\net9.0\ref\Database.dll
