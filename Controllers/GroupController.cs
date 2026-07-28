@@ -6,17 +6,17 @@ using MongoDB.Bson;
 [Route("api/[controller]")]
 public class GroupsController : ControllerBase
 {
-    private readonly IMongoCollection<Groups> _Groups;
+    private readonly IMongoCollection<Group> _Groups;
 
     public GroupsController(IMongoDatabase database)
     {
-        _Groups = database.GetCollection<Groups>("groups");
+        _Groups = database.GetCollection<Group>("groups");
     }
 
     // GET: api/groups
     // get all
     [HttpGet]
-    public ActionResult<List<Groups>> GetAll()
+    public ActionResult<List<Group>> GetAll()
     {
         return Ok(_Groups.Find(_ => true).ToList());
     }
@@ -24,7 +24,7 @@ public class GroupsController : ControllerBase
     // GET: api/groups/{id}
     // get one by id
     [HttpGet("{id}")]
-    public ActionResult<Groups> GetById(string id)
+    public ActionResult<Group> GetById(string id)
     {
         if (!ObjectId.TryParse(id, out _))
             return BadRequest("Invalid id format.");
@@ -40,7 +40,7 @@ public class GroupsController : ControllerBase
     // POST: api/groups
     // create
     [HttpPost]
-    public ActionResult<Groups> Create([FromBody] Groups newGroup)
+    public ActionResult<Group> Create([FromBody] Group newGroup)
     {
         if (newGroup == null)
             return BadRequest("Group data is required.");
@@ -53,7 +53,7 @@ public class GroupsController : ControllerBase
     // PUT: api/groups/{id}
     // update
     [HttpPut("{id}")]
-    public IActionResult Update(string id, [FromBody] Groups updatedGroup)
+    public IActionResult Update(string id, [FromBody] Group updatedGroup)
     {
         if (!ObjectId.TryParse(id, out _))
             return BadRequest("Invalid id format.");

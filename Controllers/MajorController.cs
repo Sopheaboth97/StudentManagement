@@ -6,49 +6,49 @@ using MongoDB.Bson;
 [Route("api/[controller]")]
 public class MajorsController : ControllerBase
 {
-    private readonly IMongoCollection<Majors> _Majors;
+    private readonly IMongoCollection<Major> _Majors;
 
     public MajorsController(IMongoDatabase database)
     {
-       _Majors = database.GetCollection<Majors>("majors"); 
+        _Majors = database.GetCollection<Major>("majors");
     }
 
     // GET: api/Majors
     [HttpGet]
-    public ActionResult<List<Majors>> GetAll()
+    public ActionResult<List<Major>> GetAll()
     {
         return Ok(_Majors.Find(_ => true).ToList());
     }
 
     // GET: api/Majors/{id}
     [HttpGet("{id}")]
-    public ActionResult<Majors> GetById(string id)
+    public ActionResult<Major> GetById(string id)
     {
-        var Majors = _Majors.Find(m => m.Id == id).FirstOrDefault();
-        if (Majors is null)
+        var Major = _Majors.Find(m => m.Id == id).FirstOrDefault();
+        if (Major is null)
             return NotFound();
 
-        return Ok(Majors);
+        return Ok(Major);
     }
 
     // POST: api/Majors
     [HttpPost]
-    public ActionResult<Majors> Create([FromBody] Majors Majors)
+    public ActionResult<Major> Create([FromBody] Major Major)
     {
-        _Majors.InsertOne(Majors);
-        return CreatedAtAction(nameof(GetById), new { id = Majors.Id }, Majors);
+        _Majors.InsertOne(Major);
+        return CreatedAtAction(nameof(GetById), new { id = Major.Id }, Major);
     }
 
     // PUT: api/Majors/{id}
     [HttpPut("{id}")]
-    public IActionResult Update(string id, [FromBody] Majors updatedMajors)
+    public IActionResult Update(string id, [FromBody] Major updatedMajor)
     {
         var existing = _Majors.Find(m => m.Id == id).FirstOrDefault();
         if (existing is null)
             return NotFound();
 
-        updatedMajors.Id = id;
-        _Majors.ReplaceOne(m => m.Id == id, updatedMajors);
+        updatedMajor.Id = id;
+        _Majors.ReplaceOne(m => m.Id == id, updatedMajor);
         return NoContent();
     }
 

@@ -3,11 +3,11 @@ using MongoDB.Driver;
 
 [ApiController]
 [Route("api/[controller]")]
-public class StudentsController : ControllerBase
+public class StudentController : ControllerBase
 {
     private readonly IMongoCollection<Student> _students;
 
-    public StudentsController(IMongoDatabase database)
+    public StudentController(IMongoDatabase database)
     {
         _students = database.GetCollection<Student>("students");
     }

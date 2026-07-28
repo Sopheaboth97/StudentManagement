@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations.Schema;
 
 [BsonIgnoreExtraElements]
-public class Majors
+public class Major
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]

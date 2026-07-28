@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations.Schema;
 
 [BsonIgnoreExtraElements]
-public class Teachers
+public class Teacher
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
@@ -28,5 +28,5 @@ public class Teachers
     public List<string> Subjects { get; set; } = [];
 
     [BsonElement("salary")]
-    public int salary {get;set;}
+    public int salary { get; set; }
 }

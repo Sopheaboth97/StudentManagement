@@ -4,19 +4,19 @@ using MongoDB.Bson;
 
 [ApiController]
 [Route("api/[controller]")]
-public class TeachersController : ControllerBase
+public class TeacherController : ControllerBase
 {
-    private readonly IMongoCollection<Teachers> _Teachers;
+    private readonly IMongoCollection<Teacher> _Teachers;
 
-    public TeachersController(IMongoDatabase database)
+    public TeacherController(IMongoDatabase database)
     {
-        _Teachers = database.GetCollection<Teachers>("teachers");
+        _Teachers = database.GetCollection<Teacher>("teachers");
     }
 
     // GET: api/teachers
     // get all
     [HttpGet]
-    public ActionResult<List<Teachers>> GetAll()
+    public ActionResult<List<Teacher>> GetAll()
     {
         return Ok(_Teachers.Find(_ => true).ToList());
     }
@@ -24,7 +24,7 @@ public class TeachersController : ControllerBase
     // GET: api/teachers/{id}
     // get one by id
     [HttpGet("{id}")]
-    public ActionResult<Teachers> GetById(string id)
+    public ActionResult<Teacher> GetById(string id)
     {
         if (!ObjectId.TryParse(id, out _))
             return BadRequest("Invalid id format.");
@@ -40,7 +40,7 @@ public class TeachersController : ControllerBase
     // POST: api/teachers
     // create
     [HttpPost]
-    public ActionResult<Teachers> Create([FromBody] Teachers newTeacher)
+    public ActionResult<Teacher> Create([FromBody] Teacher newTeacher)
     {
         if (newTeacher == null)
             return BadRequest("Teacher data is required.");
@@ -53,7 +53,7 @@ public class TeachersController : ControllerBase
     // PUT: api/teachers/{id}
     // update
     [HttpPut("{id}")]
-    public IActionResult Update(string id, [FromBody] Teachers updatedTeacher)
+    public IActionResult Update(string id, [FromBody] Teacher updatedTeacher)
     {
         if (!ObjectId.TryParse(id, out _))
             return BadRequest("Invalid id format.");
@@ -63,7 +63,7 @@ public class TeachersController : ControllerBase
         if (existingTeacher == null)
             return NotFound($"Teacher with id '{id}' not found.");
 
-        updatedTeacher.Id = id; 
+        updatedTeacher.Id = id;
 
         var result = _Teachers.ReplaceOne(t => t.Id == id, updatedTeacher);
 

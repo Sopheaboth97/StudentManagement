@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations.Schema;
 
 [BsonIgnoreExtraElements]
-public class Groups
+public class Group
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
@@ -16,10 +16,10 @@ public class Groups
     public string Major { get; set; } = string.Empty;
 
     [BsonElement("Total_students")]
-    public int TotalStudents { get; set; } 
+    public int TotalStudents { get; set; }
 
     [BsonElement("current_semester")]
-    public int currentSemester { get; set; } 
+    public int currentSemester { get; set; }
 
     [BsonElement("academic_year")]
     public string academicYear { get; set; } = string.Empty;
