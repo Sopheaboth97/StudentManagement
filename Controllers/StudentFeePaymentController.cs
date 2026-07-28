@@ -24,6 +24,8 @@ public class StudentFeePaymentController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<StudentFeePayment> GetById(string id)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
         var payment = _studentFeePayments.Find(p => p.Id == id).FirstOrDefault();
         if (payment is null) return NotFound();
         return Ok(payment);

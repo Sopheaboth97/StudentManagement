@@ -24,6 +24,9 @@ public class MajorController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<Major> GetById(string id)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var Major = _Majors.Find(m => m.Id == id).FirstOrDefault();
         if (Major is null)
             return NotFound();

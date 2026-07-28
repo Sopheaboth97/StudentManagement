@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using MongoDB.Bson;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -21,14 +22,17 @@ public class StudentController : ControllerBase
 
     // GET: api/students/{studentId}
     [HttpGet("{studentId}")]
-    public IActionResult GetByStudentId(string studentId)
+    public IActionResult GetByStudentId(string id)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var student = _students
-            .Find(x => x.StudentId == studentId)
+            .Find(x => x.StudentId == id)
             .FirstOrDefault();
 
         if (student == null)
-            return NotFound($"Student with id '{studentId}' not found.");
+            return NotFound($"Student with id '{id}' not found.");
 
         return Ok(student);
     }
