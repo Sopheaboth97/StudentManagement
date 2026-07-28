@@ -9,6 +9,7 @@ public class DB_connection : DbContext
     public DbSet<Group> Groups { get; set; }
 
     public DbSet<Teacher> Teachers { get; set; }
+    public DbSet<StudentFeePayment> StudentFeePayments { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
 
