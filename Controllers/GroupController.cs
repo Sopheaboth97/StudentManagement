@@ -20,12 +20,11 @@ public class GroupController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Group> GetById(string id)
+    public ActionResult<Group> GetById(int id)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
+        
 
-        var group = _groups.Find(g => g.Id == id).FirstOrDefault();
+        var group = _groups.Find(g => g.GroupId == id).FirstOrDefault();
 
         if (group == null)
             return NotFound($"Group with id '{id}' not found.");
@@ -33,6 +32,7 @@ public class GroupController : ControllerBase
         return Ok(group);
     }
 
+    // POST: api/group
     [HttpPost]
     public ActionResult<Group> Create([FromBody] Group newGroup)
     {
@@ -44,37 +44,36 @@ public class GroupController : ControllerBase
 
         _groups.InsertOne(newGroup);
 
-        return CreatedAtAction(nameof(GetById), new { id = newGroup.Id }, newGroup);
+        return CreatedAtAction(nameof(GetById), new { id = newGroup.GroupId }, newGroup);
     }
 
     [HttpPut("{id}")]
-    public IActionResult Update(string id, [FromBody] Group updatedGroup)
+    public async Task<IActionResult> Update(int id, [FromBody] Group updatedGroup)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
+        if (updatedGroup == null)
+            return BadRequest("Request body is required.");
 
-        var existingGroup = _groups.Find(g => g.Id == id).FirstOrDefault();
+        var existingGroup = await _groups.Find(g => g.GroupId == id).FirstOrDefaultAsync();
 
         if (existingGroup == null)
             return NotFound($"Group with id '{id}' not found.");
 
-        updatedGroup.Id = id;
+        // Preserve Mongo's internal _id — client doesn't send this
+        updatedGroup.Id = existingGroup.Id;
+        updatedGroup.GroupId = id;
 
-        var result = _groups.ReplaceOne(g => g.Id == id, updatedGroup);
+        var result = await _groups.FindOneAndReplaceAsync(g => g.GroupId == id, updatedGroup);
 
-        if (result.ModifiedCount == 0)
-            return StatusCode(500, "Update failed.");
-
+        if (result == null)
+            return NotFound($"Group with id '{id}' not found.");
+    
         return NoContent();
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(string id)
+    public IActionResult Delete(int id)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
-
-        var result = _groups.DeleteOne(g => g.Id == id);
+        var result = _groups.DeleteOne(g => g.GroupId == id);
 
         if (result.DeletedCount == 0)
             return NotFound($"Group with id '{id}' not found.");
