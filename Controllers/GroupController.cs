@@ -4,11 +4,11 @@ using MongoDB.Bson;
 
 [ApiController]
 [Route("api/[controller]")]
-public class GroupsController : ControllerBase
+public class GroupController : ControllerBase
 {
     private readonly IMongoCollection<Group> _Groups;
 
-    public GroupsController(IMongoDatabase database)
+    public GroupController(IMongoDatabase database)
     {
         _Groups = database.GetCollection<Group>("groups");
     }

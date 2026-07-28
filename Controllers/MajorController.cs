@@ -4,11 +4,11 @@ using MongoDB.Bson;
 
 [ApiController]
 [Route("api/[controller]")]
-public class MajorsController : ControllerBase
+public class MajorController : ControllerBase
 {
     private readonly IMongoCollection<Major> _Majors;
 
-    public MajorsController(IMongoDatabase database)
+    public MajorController(IMongoDatabase database)
     {
         _Majors = database.GetCollection<Major>("majors");
     }
