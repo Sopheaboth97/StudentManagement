@@ -34,6 +34,9 @@ public class TeacherController : ControllerBase
     [HttpPost]
     public ActionResult<Teacher> Create([FromBody] Teacher newTeacher)
     {
+        int maxTeacherId = _teachers.Find(_ => true).SortByDescending(t => t.TeacherId).Limit(1).FirstOrDefault()?.TeacherId ?? 0;
+        newTeacher.TeacherId = maxTeacherId + 1;
+
         if (newTeacher == null)
             return BadRequest("Teacher data is required.");
 
@@ -50,7 +53,7 @@ public class TeacherController : ControllerBase
         if (existingTeacher == null)
             return NotFound($"Teacher with id '{teacherId}' not found.");
 
-        // updatedTeacher.TeacherId = existingTeacher.TeacherId;
+        updatedTeacher.Id = existingTeacher.Id; // Preserve the original ObjectId
 
         var result = _teachers.ReplaceOne(t => t.TeacherId == teacherId, updatedTeacher);
 
