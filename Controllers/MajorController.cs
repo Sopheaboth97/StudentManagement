@@ -20,50 +20,47 @@ public class MajorController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Major> GetById(string id)
+    public ActionResult<Major> GetById(int id)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
-
-        var major = _majors.Find(m => m.Id == id).FirstOrDefault();
+        var major = _majors.Find(m => m.MajorId == id).FirstOrDefault();
         if (major is null)
             return NotFound();
 
         return Ok(major);
     }
 
+    // POST: api/major
     [HttpPost]
     public ActionResult<Major> Create([FromBody] Major major)
     {
         _majors.InsertOne(major);
-        return CreatedAtAction(nameof(GetById), new { id = major.Id }, major);
+        return CreatedAtAction(nameof(GetById), new { id = major.MajorId }, major);
     }
 
     [HttpPut("{id}")]
-    public IActionResult Update(string id, [FromBody] Major updatedMajor)
+    public IActionResult Update(int id, [FromBody] Major updatedMajor)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
-
-        var existing = _majors.Find(m => m.Id == id).FirstOrDefault();
+        var existing = _majors.Find(m => m.MajorId == id).FirstOrDefault();
         if (existing is null)
             return NotFound();
 
-        updatedMajor.Id = id;
-        _majors.ReplaceOne(m => m.Id == id, updatedMajor);
-        return NoContent();
+        updatedMajor.Id = existing.Id;
+        updatedMajor.MajorId = id;
+
+        var result = _majors.ReplaceOne(m => m.MajorId == id, updatedMajor);
+
+    if (result.MatchedCount == 0)
+        return NotFound();
+        return Ok(updatedMajor);
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(string id)
+    public IActionResult Delete(int id)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
-
-        var result = _majors.DeleteOne(m => m.Id == id);
+        var result = _majors.DeleteOne(m => m.MajorId == id);
         if (result.DeletedCount == 0)
             return NotFound();
 
-        return NoContent();
+        return Ok("Major deleted successfully.");
     }
 }

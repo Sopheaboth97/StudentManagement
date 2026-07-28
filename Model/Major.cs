@@ -8,6 +8,9 @@ public class Major
     [BsonRepresentation(BsonType.ObjectId)]
     public string Id { get; set; } = string.Empty;
 
+    [BsonElement("major_id")]
+    public int MajorId { get; set; }
+
     [BsonElement("major_name")]
     public string MajorName { get; set; } = string.Empty;
 
