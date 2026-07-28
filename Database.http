@@ -1,6 +1,24 @@
 @Database_HostAddress = http://localhost:5073
 
-GET {{Database_HostAddress}}/weatherforecast/
+GET {{Database_HostAddress}}/api/student
 Accept: application/json
 
 ###
+
+GET {{Database_HostAddress}}/api/teacher
+Accept: application/json
+
+###
+
+GET {{Database_HostAddress}}/api/major
+Accept: application/json
+
+###
+
+GET {{Database_HostAddress}}/api/group
+Accept: application/json
+
+###
+
+GET {{Database_HostAddress}}/api/studentfeepayment
+Accept: application/json

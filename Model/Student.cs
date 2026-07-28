@@ -1,13 +1,10 @@
-using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using System.ComponentModel.DataAnnotations.Schema;
 
 [BsonIgnoreExtraElements]
 public class Student
 {
     [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; } = string.Empty;
+    public int Id { get; set; }
 
     [BsonElement("student_id")]
     public string StudentId { get; set; } = string.Empty;
@@ -19,7 +16,7 @@ public class Student
     public string Gender { get; set; } = string.Empty;
 
     [BsonElement("date_of_birth")]
-    public string DateOfBirth { get; set; } = string.Empty;
+    public DateTime DateOfBirth { get; set; }
 
     [BsonElement("phone_number")]
     public string PhoneNumber { get; set; } = string.Empty;
@@ -44,7 +41,7 @@ public class Student
 public class Attendance
 {
     [BsonElement("date")]
-    public string Date { get; set; } = string.Empty;
+    public DateTime Date { get; set; }
 
     [BsonElement("status")]
     public string Status { get; set; } = string.Empty;
@@ -76,6 +73,6 @@ public class Score
     [BsonElement("subject")]
     public string Subject { get; set; } = string.Empty;
 
-    [BsonElement("scoreValue")]
+    [BsonElement("score")]
     public int? ScoreValue { get; set; }
 }

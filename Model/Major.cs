@@ -1,13 +1,10 @@
-using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using System.ComponentModel.DataAnnotations.Schema;
 
 [BsonIgnoreExtraElements]
 public class Major
 {
     [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; } = string.Empty;
+    public int Id { get; set; }
 
     [BsonElement("major_name")]
     public string MajorName { get; set; } = string.Empty;

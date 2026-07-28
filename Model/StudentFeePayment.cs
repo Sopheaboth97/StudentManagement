@@ -1,12 +1,10 @@
-using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 [BsonIgnoreExtraElements]
 public class StudentFeePayment
 {
     [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; } = string.Empty;
+    public int Id { get; set; }
 
     [BsonElement("payment_id")]
     public string PaymentId { get; set; } = string.Empty;
@@ -21,7 +19,7 @@ public class StudentFeePayment
     public int AmountPaid { get; set; }
 
     [BsonElement("payment_date")]
-    public string PaymentDate { get; set; } = string.Empty;
+    public DateTime PaymentDate { get; set; }
 
     [BsonElement("payment_method")]
     public string PaymentMethod { get; set; } = string.Empty;

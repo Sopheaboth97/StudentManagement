@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
-using MongoDB.Bson;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -13,31 +12,25 @@ public class StudentController : ControllerBase
         _students = database.GetCollection<Student>("students");
     }
 
-    // GET: api/students
     [HttpGet]
     public IActionResult GetAll()
     {
         return Ok(_students.Find(_ => true).ToList());
     }
 
-    // GET: api/students/{studentId}
     [HttpGet("{studentId}")]
-    public IActionResult GetByStudentId(string id)
+    public IActionResult GetByStudentId(string studentId)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
-
         var student = _students
-            .Find(x => x.StudentId == id)
+            .Find(x => x.StudentId == studentId)
             .FirstOrDefault();
 
         if (student == null)
-            return NotFound($"Student with id '{id}' not found.");
+            return NotFound($"Student with id '{studentId}' not found.");
 
         return Ok(student);
     }
 
-    // POST: api/students
     [HttpPost]
     public IActionResult Create(Student student)
     {
@@ -56,14 +49,13 @@ public class StudentController : ControllerBase
             student);
     }
 
-    // PUT: api/students/{studentId}
     [HttpPut("{studentId}")]
     public IActionResult Update(string studentId, Student updatedStudent)
     {
         if (updatedStudent == null)
             return BadRequest("Student data is required.");
 
-        updatedStudent.StudentId = studentId; // keep the route id authoritative
+        updatedStudent.StudentId = studentId;
 
         var result = _students.ReplaceOne(x => x.StudentId == studentId, updatedStudent);
 
@@ -73,7 +65,6 @@ public class StudentController : ControllerBase
         return Ok(updatedStudent);
     }
 
-    // DELETE: api/students/{studentId}
     [HttpDelete("{studentId}")]
     public IActionResult Delete(string studentId)
     {
