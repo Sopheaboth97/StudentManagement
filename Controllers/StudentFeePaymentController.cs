@@ -33,6 +33,9 @@ public class StudentFeePaymentController : ControllerBase
     [HttpPost]
     public ActionResult<StudentFeePayment> Create(StudentFeePayment payment)
     {
+        int maxPaymentId = _studentFeePayments.Find(_ => true).SortByDescending(p => p.PaymentId).Limit(1).FirstOrDefault()?.PaymentId ?? 0;
+        payment.PaymentId = maxPaymentId + 1;
+
         _studentFeePayments.InsertOne(payment);
         return CreatedAtAction(nameof(GetById), new { id = payment.Id }, payment);
     }

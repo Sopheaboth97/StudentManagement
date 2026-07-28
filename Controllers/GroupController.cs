@@ -36,6 +36,9 @@ public class GroupController : ControllerBase
     [HttpPost]
     public ActionResult<Group> Create([FromBody] Group newGroup)
     {
+        int maxGroupId = _groups.Find(_ => true).SortByDescending(g => g.GroupId).Limit(1).FirstOrDefault()?.GroupId ?? 0;
+        newGroup.GroupId = maxGroupId + 1;
+
         if (newGroup == null)
             return BadRequest("Group data is required.");
 

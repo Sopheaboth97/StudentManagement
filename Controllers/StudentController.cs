@@ -34,10 +34,14 @@ public class StudentController : ControllerBase
     [HttpPost]
     public IActionResult Create(Student student)
     {
+        int maxStudentId = _students.Find(_ => true).SortByDescending(t => t.StudentId).Limit(1).FirstOrDefault()?.StudentId ?? 0;
+        student.StudentId = maxStudentId + 1;
+
         if (student == null)
             return BadRequest("Student data is required.");
 
         var existing = _students.Find(x => x.StudentId == student.StudentId).FirstOrDefault();
+
         if (existing != null)
             return Conflict($"Student with id '{student.StudentId}' already exists.");
 

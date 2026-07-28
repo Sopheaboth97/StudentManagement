@@ -33,6 +33,10 @@ public class MajorController : ControllerBase
     [HttpPost]
     public ActionResult<Major> Create([FromBody] Major major)
     {
+        int maxMajorId = _majors.Find(_ => true).SortByDescending(m => m.MajorId).Limit(1).FirstOrDefault()?.MajorId ?? 0;
+        major.MajorId = maxMajorId + 1;
+
+
         _majors.InsertOne(major);
         return CreatedAtAction(nameof(GetById), new { id = major.MajorId }, major);
     }
@@ -49,8 +53,8 @@ public class MajorController : ControllerBase
 
         var result = _majors.ReplaceOne(m => m.MajorId == id, updatedMajor);
 
-    if (result.MatchedCount == 0)
-        return NotFound();
+        if (result.MatchedCount == 0)
+            return NotFound();
         return Ok(updatedMajor);
     }
 
