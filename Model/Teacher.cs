@@ -17,7 +17,7 @@ public class Teacher
     [BsonElement("gender")]
     public string Gender { get; set; } = string.Empty;
 
-    [BsonElement("Date_Of_Birth")]
+    [BsonElement("date_of_birth")]
     public DateTime DateOfBirth { get; set; }
 
     [BsonElement("phone_number")]

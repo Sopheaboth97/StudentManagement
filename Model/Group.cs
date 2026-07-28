@@ -8,13 +8,16 @@ public class Group
     [BsonRepresentation(BsonType.ObjectId)]
     public string Id { get; set; } = string.Empty;
 
-    [BsonElement("Group_name")]
+    [BsonElement("group_id")]
+    public int GroupId { get; set; }
+
+    [BsonElement("group_name")]
     public string GroupName { get; set; } = string.Empty;
 
-    [BsonElement("Major")]
+    [BsonElement("major")]
     public string Major { get; set; } = string.Empty;
 
-    [BsonElement("Total_students")]
+    [BsonElement("total_students")]
     public int TotalStudents { get; set; }
 
     [BsonElement("current_semester")]
