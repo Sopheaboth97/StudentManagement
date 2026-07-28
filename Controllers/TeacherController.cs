@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 [ApiController]
@@ -19,8 +20,11 @@ public class TeacherController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Teacher> GetById(int id)
+    public ActionResult<Teacher> GetById(string id)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var teacher = _teachers.Find(t => t.Id == id).FirstOrDefault();
 
         if (teacher == null)
@@ -41,8 +45,11 @@ public class TeacherController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult Update(int id, [FromBody] Teacher updatedTeacher)
+    public IActionResult Update(string id, [FromBody] Teacher updatedTeacher)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var existingTeacher = _teachers.Find(t => t.Id == id).FirstOrDefault();
 
         if (existingTeacher == null)
@@ -59,8 +66,11 @@ public class TeacherController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    public IActionResult Delete(string id)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var result = _teachers.DeleteOne(t => t.Id == id);
 
         if (result.DeletedCount == 0)

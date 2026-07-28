@@ -1,13 +1,15 @@
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 [BsonIgnoreExtraElements]
 public class Student
 {
     [BsonId]
-    public int Id { get; set; }
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; } = string.Empty;
 
     [BsonElement("student_id")]
-    public string StudentId { get; set; } = string.Empty;
+    public int StudentId { get; set; }
 
     [BsonElement("student_name")]
     public string StudentName { get; set; } = string.Empty;

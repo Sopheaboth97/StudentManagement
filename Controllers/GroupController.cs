@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 [ApiController]
@@ -19,8 +20,11 @@ public class GroupController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Group> GetById(int id)
+    public ActionResult<Group> GetById(string id)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var group = _groups.Find(g => g.Id == id).FirstOrDefault();
 
         if (group == null)
@@ -41,8 +45,11 @@ public class GroupController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult Update(int id, [FromBody] Group updatedGroup)
+    public IActionResult Update(string id, [FromBody] Group updatedGroup)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var existingGroup = _groups.Find(g => g.Id == id).FirstOrDefault();
 
         if (existingGroup == null)
@@ -59,8 +66,11 @@ public class GroupController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    public IActionResult Delete(string id)
     {
+        if (!ObjectId.TryParse(id, out _))
+            return BadRequest("Invalid id format.");
+
         var result = _groups.DeleteOne(g => g.Id == id);
 
         if (result.DeletedCount == 0)

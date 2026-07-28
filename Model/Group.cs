@@ -1,10 +1,12 @@
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 [BsonIgnoreExtraElements]
 public class Group
 {
     [BsonId]
-    public int Id { get; set; }
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; } = string.Empty;
 
     [BsonElement("Group_name")]
     public string GroupName { get; set; } = string.Empty;

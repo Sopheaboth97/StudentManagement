@@ -19,7 +19,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpGet("{studentId}")]
-    public IActionResult GetByStudentId(string studentId)
+    public IActionResult GetByStudentId(int studentId)
     {
         var student = _students
             .Find(x => x.StudentId == studentId)
@@ -50,7 +50,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpPut("{studentId}")]
-    public IActionResult Update(string studentId, Student updatedStudent)
+    public IActionResult Update(int studentId, Student updatedStudent)
     {
         if (updatedStudent == null)
             return BadRequest("Student data is required.");
@@ -66,7 +66,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpDelete("{studentId}")]
-    public IActionResult Delete(string studentId)
+    public IActionResult Delete(int studentId)
     {
         var result = _students.DeleteOne(x => x.StudentId == studentId);
 

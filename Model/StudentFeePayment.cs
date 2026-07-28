@@ -1,16 +1,18 @@
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 [BsonIgnoreExtraElements]
 public class StudentFeePayment
 {
     [BsonId]
-    public int Id { get; set; }
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; } = string.Empty;
 
     [BsonElement("payment_id")]
-    public string PaymentId { get; set; } = string.Empty;
+    public int PaymentId { get; set; }
 
     [BsonElement("student_id")]
-    public string StudentId { get; set; } = string.Empty;
+    public int StudentId { get; set; }
 
     [BsonElement("semester")]
     public int Semester { get; set; }
