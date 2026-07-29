@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace SchoolManagement.Models
 {
-    public class classSchedule
+    public class ClassSchedule
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

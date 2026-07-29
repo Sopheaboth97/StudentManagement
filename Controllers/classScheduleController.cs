@@ -8,16 +8,16 @@ namespace SchoolManagement.Controllers
     [Route("api/[controller]")]
     public class ClassScheduleController : ControllerBase
     {
-        private readonly IMongoCollection<classSchedule> _classSchedules;
+        private readonly IMongoCollection<ClassSchedule> _classSchedules;
 
         public ClassScheduleController(IMongoDatabase database)
         {
-            _classSchedules = database.GetCollection<classSchedule>("class_schedule");
+            _classSchedules = database.GetCollection<ClassSchedule>("class_schedule");
         }
 
         // GET: api/classschedule
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<classSchedule>>> GetAll()
+        public async Task<ActionResult<IEnumerable<ClassSchedule>>> GetAll()
         {
             var schedules = await _classSchedules.Find(_ => true).ToListAsync();
             return Ok(schedules);
@@ -25,7 +25,7 @@ namespace SchoolManagement.Controllers
 
         // GET: api/classschedule/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<classSchedule>> GetById(int id)
+        public async Task<ActionResult<ClassSchedule>> GetById(int id)
         {
             var schedule = await _classSchedules
                 .Find(s => s.ScheduleId == id)
@@ -39,7 +39,7 @@ namespace SchoolManagement.Controllers
 
         // POST: api/classschedule
         [HttpPost]
-        public async Task<ActionResult<classSchedule>> Create([FromBody] classSchedule newSchedule)
+        public async Task<ActionResult<ClassSchedule>> Create([FromBody] ClassSchedule newSchedule)
         {
             if (newSchedule == null)
                 return BadRequest("Class schedule data is required.");
@@ -59,7 +59,7 @@ namespace SchoolManagement.Controllers
 
         // PUT: api/classschedule/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] classSchedule updatedSchedule)
+        public async Task<IActionResult> Update(int id, [FromBody] ClassSchedule updatedSchedule)
         {
             if (updatedSchedule == null)
                 return BadRequest("Class schedule data is required.");
