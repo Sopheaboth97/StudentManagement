@@ -21,7 +21,7 @@ public class StudentFeePayment
     public int AmountPaid { get; set; }
 
     [BsonElement("payment_date")]
-    public DateTime PaymentDate { get; set; }
+    public DateTime PaymentDate { get; set; } 
 
     [BsonElement("payment_method")]
     public string PaymentMethod { get; set; } = string.Empty;

@@ -16,17 +16,15 @@ public class StudentFeePaymentController : ControllerBase
     [HttpGet]
     public ActionResult<List<StudentFeePayment>> GetAll()
     {
-        return Ok(_studentFeePayments.Find(_ => true).ToList());
+        var payments = _studentFeePayments.Find(_ => true).ToList();
+        return Ok(payments);
     }
 
     [HttpGet("{id}")]
-    public ActionResult<StudentFeePayment> GetById(string id)
+    public ActionResult<StudentFeePayment> GetById(int id)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
-
-        var payment = _studentFeePayments.Find(p => p.Id == id).FirstOrDefault();
-        if (payment is null) return NotFound();
+        var payment = _studentFeePayments.Find(p => p.PaymentId == id).FirstOrDefault();
+        if (payment == null) return NotFound();
         return Ok(payment);
     }
 
@@ -41,24 +39,24 @@ public class StudentFeePaymentController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult Update(string id, StudentFeePayment updatedPayment)
+    public IActionResult Update(int id, StudentFeePayment updatedPayment)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
+        var payment = _studentFeePayments.Find(p => p.PaymentId == id).FirstOrDefault();
+        if (payment == null) return NotFound();
 
-        updatedPayment.Id = id;
-        var result = _studentFeePayments.ReplaceOne(p => p.Id == id, updatedPayment);
+        updatedPayment.Id = payment.Id;
+        var result = _studentFeePayments.ReplaceOne(p => p.Id == payment.Id, updatedPayment);
         if (result.MatchedCount == 0) return NotFound();
         return NoContent();
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(string id)
+    public IActionResult Delete(int id)
     {
-        if (!ObjectId.TryParse(id, out _))
-            return BadRequest("Invalid id format.");
+        var payment = _studentFeePayments.Find(p => p.PaymentId == id).FirstOrDefault();
+        if (payment == null) return NotFound();
 
-        var result = _studentFeePayments.DeleteOne(p => p.Id == id);
+        var result = _studentFeePayments.DeleteOne(p => p.Id == payment.Id);
         if (result.DeletedCount == 0) return NotFound();
         return NoContent();
     }
