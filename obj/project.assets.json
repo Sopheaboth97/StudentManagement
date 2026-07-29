@@ -1024,11 +1024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement\\Database.csproj",
+      "projectUniqueName": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement - Copy\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement\\Database.csproj",
+      "projectPath": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement - Copy\\Database.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement\\obj\\",
+      "outputPath": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement - Copy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"

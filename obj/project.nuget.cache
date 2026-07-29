@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AS/NPZe95as=",
+  "dgSpecHash": "xb/ZRxvE7nw=",
   "success": true,
-  "projectFilePath": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement\\Database.csproj",
+  "projectFilePath": "D:\\SECTEC work\\year 2 sem 2\\FinalDB\\latestwork\\StudentManagement - Copy\\Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
