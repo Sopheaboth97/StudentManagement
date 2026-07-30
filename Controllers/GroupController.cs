@@ -16,13 +16,13 @@ public class GroupController : ControllerBase
     [HttpGet]
     public ActionResult<List<Group>> GetAll()
     {
-        return Ok(_groups.Find(_ => true).ToList());
+        return Ok(_groups.Find(_ => true).SortBy(g => g.GroupId).ToList());
     }
 
     [HttpGet("{id}")]
     public ActionResult<Group> GetById(int id)
     {
-        
+
 
         var group = _groups.Find(g => g.GroupId == id).FirstOrDefault();
 
@@ -66,7 +66,7 @@ public class GroupController : ControllerBase
 
         if (result == null)
             return NotFound($"Group with id '{id}' not found.");
-    
+
         return NoContent();
     }
 

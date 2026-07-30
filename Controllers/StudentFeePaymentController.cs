@@ -16,7 +16,7 @@ public class StudentFeePaymentController : ControllerBase
     [HttpGet]
     public ActionResult<List<StudentFeePayment>> GetAll()
     {
-        var payments = _studentFeePayments.Find(_ => true).ToList();
+        var payments = _studentFeePayments.Find(_ => true).SortBy(p => p.PaymentId).ToList();
         return Ok(payments);
     }
 

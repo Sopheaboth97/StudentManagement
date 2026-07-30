@@ -15,7 +15,7 @@ public class StudentController : ControllerBase
     [HttpGet]
     public IActionResult GetAll()
     {
-        return Ok(_students.Find(_ => true).ToList());
+        return Ok(_students.Find(_ => true).SortBy(s => s.StudentId).ToList());
     }
 
     [HttpGet("{studentId}")]

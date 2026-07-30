@@ -19,7 +19,7 @@ namespace SchoolManagement.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ClassSchedule>>> GetAll()
         {
-            var schedules = await _classSchedules.Find(_ => true).ToListAsync();
+            var schedules = await _classSchedules.Find(_ => true).SortBy(s => s.ScheduleId).ToListAsync();
             return Ok(schedules);
         }
 

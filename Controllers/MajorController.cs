@@ -16,7 +16,7 @@ public class MajorController : ControllerBase
     [HttpGet]
     public ActionResult<List<Major>> GetAll()
     {
-        return Ok(_majors.Find(_ => true).ToList());
+        return Ok(_majors.Find(_ => true).SortBy(m => m.MajorId).ToList());
     }
 
     [HttpGet("{id}")]
