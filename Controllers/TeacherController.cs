@@ -18,6 +18,17 @@ public class TeacherController : ControllerBase
     {
         return Ok(_teachers.Find(_ => true).SortBy(t => t.TeacherId).ToList());
     }
+    [HttpGet("getteachersubjects")]
+    public ActionResult<List<string>> GetTeacherSubjects()
+    {
+        var subjects = _teachers.Find(_ => true)
+            .Project(t => t.Subjects)
+            .ToList()
+            .SelectMany(s => s)
+            .Distinct()
+            .ToList();
+        return Ok(subjects);
+    }
 
     [HttpGet("{teacherId}")]
     public ActionResult<Teacher> GetById(int teacherId)

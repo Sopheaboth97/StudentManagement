@@ -32,6 +32,19 @@ public class MajorController : ControllerBase
         return Ok(subjects);
     }
 
+    
+    [HttpGet("getmajorgroups")]
+    public ActionResult<List<String>> GetMajorGroups()
+    {
+        var groups = _majors.Find(_ => true)
+        .Project(m => m.Group)
+        .ToList()
+        .SelectMany(g => g)
+        .Distinct()
+        .ToList();
+        return Ok(groups);
+    }
+
     [HttpGet("getmajornames")]
     public ActionResult<List<string>> GetMajorNames()
     {
