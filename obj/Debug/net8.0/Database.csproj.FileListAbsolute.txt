@@ -801,3 +801,45 @@ D:\SECTEC work\year 2 sem 2\FinalDB\latestwork\StudentManagement - Copy\obj\Debu
 D:\SECTEC work\year 2 sem 2\FinalDB\latestwork\StudentManagement - Copy\obj\Debug\net8.0\Database.pdb
 D:\SECTEC work\year 2 sem 2\FinalDB\latestwork\StudentManagement - Copy\obj\Debug\net8.0\Database.genruntimeconfig.cache
 D:\SECTEC work\year 2 sem 2\FinalDB\latestwork\StudentManagement - Copy\obj\Debug\net8.0\ref\Database.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\appsettings.Development.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\appsettings.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Database.staticwebassets.endpoints.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Database.exe
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Database.deps.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Database.runtimeconfig.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Database.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Database.pdb
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\DnsClient.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\SharpCompress.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Snappier.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\bin\Debug\net8.0\ZstdSharp.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.csproj.AssemblyReference.cache
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.AssemblyInfoInputs.cache
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.AssemblyInfo.cs
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.csproj.CoreCompileInputs.cache
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.MvcApplicationPartsAssemblyInfo.cs
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.MvcApplicationPartsAssemblyInfo.cache
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.sourcelink.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\scopedcss\bundle\Database.styles.css
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\staticwebassets.build.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\staticwebassets.development.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\swae.build.ex.cache
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.csproj.Up2Date
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\refint\Database.dll
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.pdb
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.genruntimeconfig.cache
+D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\ref\Database.dll
