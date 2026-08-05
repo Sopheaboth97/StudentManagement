@@ -19,6 +19,13 @@ public class MajorController : ControllerBase
         return Ok(_majors.Find(_ => true).SortBy(m => m.MajorId).ToList());
     }
 
+    [HttpGet("getmajornames")]
+    public ActionResult<List<string>> GetMajorNames()
+    {
+        var majorNames = _majors.Find(_ => true).Project(m => m.MajorName).ToList();
+        return Ok(majorNames);
+    }
+
     [HttpGet("{id}")]
     public ActionResult<Major> GetById(int id)
     {

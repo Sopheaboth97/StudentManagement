@@ -19,6 +19,14 @@ public class GroupController : ControllerBase
         return Ok(_groups.Find(_ => true).SortBy(g => g.GroupId).ToList());
     }
 
+
+    [HttpGet("getgroupnames")]
+    public ActionResult<List<string>> GetGroupNames()
+    {
+        var groupNames = _groups.Find(_ => true).Project(g => g.GroupName).ToList();
+        return Ok(groupNames);
+    }
+
     [HttpGet("{id}")]
     public ActionResult<Group> GetById(int id)
     {
