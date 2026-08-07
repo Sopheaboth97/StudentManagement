@@ -23,15 +23,13 @@ public class GroupController : ControllerBase
     [HttpGet("getgroupnames")]
     public ActionResult<List<string>> GetGroupNames()
     {
-        var groupNames = _groups.Find(_ => true).Project(g => g.GroupName).ToList();
+        var groupNames = _groups.Find(_ => true).Project(g => g.GroupName).ToList().OrderBy(name => name).ToList();
         return Ok(groupNames);
     }
 
     [HttpGet("{id}")]
     public ActionResult<Group> GetById(int id)
     {
-
-
         var group = _groups.Find(g => g.GroupId == id).FirstOrDefault();
 
         if (group == null)

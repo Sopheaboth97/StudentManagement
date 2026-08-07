@@ -30,12 +30,13 @@ public class TeacherController : ControllerBase
         return Ok(subjects);
     }
 
-
     [HttpGet("getteachernames")]
     public ActionResult<List<string>> GetTeacherNames()
     {
         var names = _teachers.Find(_ => true)
             .Project(t => t.TeacherName)
+            .ToList()
+            .OrderBy(name => name)
             .ToList();
         return Ok(names);
     }

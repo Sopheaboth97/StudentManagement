@@ -28,27 +28,29 @@ public class MajorController : ControllerBase
         .ToList()
         .SelectMany(s => s)
         .Distinct()
+        .OrderBy(s => s)
         .ToList();
         return Ok(subjects);
     }
 
-    
-    [HttpGet("getmajorgroups")]
-    public ActionResult<List<String>> GetMajorGroups()
-    {
-        var groups = _majors.Find(_ => true)
-        .Project(m => m.Group)
-        .ToList()
-        .SelectMany(g => g)
-        .Distinct()
-        .ToList();
-        return Ok(groups);
-    }
+
+    // [HttpGet("getmajorgroups")]
+    // public ActionResult<List<String>> GetMajorGroups()
+    // {
+    //     var groups = _majors.Find(_ => true)
+    //     .Project(m => m.Group)
+    //     .ToList()
+    //     .SelectMany(g => g)
+    //     .Distinct()
+    //     .OrderBy(g => g)
+    //     .ToList();
+    //     return Ok(groups);
+    // }
 
     [HttpGet("getmajornames")]
     public ActionResult<List<string>> GetMajorNames()
     {
-        var majorNames = _majors.Find(_ => true).Project(m => m.MajorName).ToList();
+        var majorNames = _majors.Find(_ => true).Project(m => m.MajorName).ToList().OrderBy(name => name).ToList();
         return Ok(majorNames);
     }
 
