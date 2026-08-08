@@ -843,3 +843,11 @@ D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\r
 D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.pdb
 D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\Database.genruntimeconfig.cache
 D:\SECTEC work\year 2 sem 2\FinalDB\StudentManagement_backend\obj\Debug\net8.0\ref\Database.dll
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\appsettings.Development.json
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\appsettings.json
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\Database.staticwebassets.endpoints.json
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\Database.exe
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\Database.deps.json
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\Database.runtimeconfig.json
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\Database.dll
+C:\Users\k\AppData\Local\Temp\opencode\backend-build\Database.pdb
